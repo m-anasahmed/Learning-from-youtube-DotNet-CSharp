@@ -1,0 +1,34 @@
+@rootURL = http://localhost:5175
+
+GET {{rootURL}}/weatherforecast/
+Accept: application/json
+
+###
+GET {{rootURL}}/api/books
+Accept: application/json
+
+###
+GET {{rootURL}}/api/books/3
+Accept: applicaion/json
+
+###
+POST {{rootURL}}/api/books
+Content-Type: application/json
+{
+  "title": "Batman",
+  "author": "Christopher Nolan",
+  "yearPublished": 2022
+}
+
+###
+PUT {{rootURL}}/api/books/5
+Content-Type: application/json
+{
+  "id":5,
+  "title": "Batman3",
+  "author": "Herman Melville",
+  "yearPublished": 1851
+}
+
+###
+DELETE {{rootURL}}/api/books/4
