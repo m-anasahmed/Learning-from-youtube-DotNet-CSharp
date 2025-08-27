@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "8643tsWrNAM=",
+  "success": true,
+  "projectFilePath": "F:\\01CodeBase\\Learning-from-youtube-DotNet-CSharp\\MyFirstWebApp\\WebApp\\WebApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\DELL\\.nuget\\packages\\microsoft.net.sdk.compilers.toolset\\9.0.304\\microsoft.net.sdk.compilers.toolset.9.0.304.nupkg.sha512"
+  ],
+  "logs": []
+}
